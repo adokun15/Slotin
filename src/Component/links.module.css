@@ -1,0 +1,126 @@
+.Transfer__Container {
+    width: 90%;
+    padding: 1.7rem 0;
+}
+
+/*Transfer css*/
+.Trans__detail {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    font-size: 0.7rem;
+}
+
+.Trans__detail p {
+    display: inline;
+    font-size: 0.7rem;
+}
+
+.Trans__detail h1 {
+    display: inline;
+
+}
+
+.Trans__detail h1 span {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.trans__form {
+    width: 60%;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .3), 0 1px 3px 1px rgba(60, 64, 67, .15);
+    background-color: rgba(244, 247, 247, 0.913);
+
+    padding: 5px 1rem;
+    margin: auto
+}
+
+.trans__form>.trans__input {
+    display: block;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+    width: 80%;
+}
+
+.trans__form>.trans__opt {
+    display: block;
+    padding: 3px 0.2rem;
+    width: 10%;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.trans__form>.trans__btn {
+    display: block;
+    margin: 1rem 0;
+}
+
+.trans__form {
+    line-height: 2rem;
+}
+
+.transfer__form__accs {
+    display: block;
+}
+
+/*transfer*/
+.trans__form .transfer__to {
+    display: block;
+    outline: none;
+    background: none;
+    border: none;
+    background-color: rgba(105, 106, 106, 0.271);
+    padding: 3px 10px;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/*withdraw*/
+
+/*fund*/
+
+
+/*info*/
+.info {
+    width: 90%;
+}
+
+.info h1 {
+    margin: 0 0.4rem;
+    margin-bottom: 0.8rem;
+}
+
+.info h3 {
+    margin: 0.2rem 0;
+    font-style: italic;
+}
+
+.info .info__container {
+    line-height: 2rem;
+    border-radius: 0.4rem;
+    margin: 1rem 0;
+    padding: 0.4rem 10px;
+    background-color: rgba(223, 224, 225, 0.683);
+}
+
+.info .info__container button {
+    padding: 0 1.2rem;
+}
+
+.info__container .info__username__input {
+    display: block;
+    outline: none;
+    background: none;
+    border: none;
+    border: 3px dashed white;
+    background-color: rgba(105, 106, 106, 0.271);
+    padding: 3px 10px;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+}

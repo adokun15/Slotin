@@ -1,0 +1,42 @@
+.TransactionList {
+    padding: 0 0.9rem;
+}
+
+.TransactionList h2 {
+    margin-bottom: 1rem;
+    text-align: right;
+    font-size: 1rem;
+}
+
+.TransactionList .lists {
+    padding-left: 1rem;
+    overflow: scroll;
+    max-height: 20rem;
+    line-height: 2rem;
+}
+
+.TransactionList .lists li {
+    list-style-type: none;
+    margin: 1rem 0;
+    padding: 0.8rem 0.5rem;
+    border-radius: 5px;
+    background-color: rgb(209, 206, 206);
+    justify-content: space-between;
+}
+
+.TransactionList .lists li p {
+    font-style: italic;
+}
+
+.TransactionList .lists li h1 {
+    color: green;
+}
+
+/*viewport*/
+.TransactionListDevice .lists li h1 {
+    font-size: 1.7rem;
+}
+
+.TransactionListDevice .lists li p {
+    font-size: 0.8rem;
+}

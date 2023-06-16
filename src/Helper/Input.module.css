@@ -1,0 +1,13 @@
+.Input {
+    outline: none;
+    background: rgba(155, 155, 240, 0.894);
+    color: black;
+    padding: 3px 0.2rem;
+    border-radius: 0.3rem;
+    border: 1px solid rgb(58, 58, 250);
+}
+
+.Input:focus {
+    border: 1px solid black;
+
+}

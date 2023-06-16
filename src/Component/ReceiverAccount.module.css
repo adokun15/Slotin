@@ -1,0 +1,47 @@
+.account__Body {
+    min-height: 5rem;
+
+
+}
+
+.account__Body h1 {
+    margin-bottom: 1rem;
+}
+
+.account__Body .acc {
+    margin: 2rem 0;
+    list-style: none;
+}
+
+.account__Body .acc button {
+    border: none;
+    width: 100%;
+    margin: auto;
+    background: none;
+    padding: 1rem 0;
+    outline: none;
+}
+
+.account__Body .acc a {
+    text-decoration: underline;
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.account__Body p {
+    font-style: italic;
+}
+
+.account__Body .closeBtn {
+    width: 30%;
+    padding: 0.2rem 0;
+}
+
+.account__Body .searchQuery {
+    padding: 0.5rem 2px;
+    border-radius: 2px;
+    border: none;
+    background-color: rgb(215, 217, 218);
+}

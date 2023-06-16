@@ -1,0 +1,60 @@
+.main {
+    width: 83.8%;
+    margin: 1rem auto;
+    position: relative;
+
+}
+
+/* home*/
+.homeDetail {
+    padding: 0 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.homeDetail h2 {
+    margin: 1rem 0;
+}
+
+.homeDetail__body {
+    display: grid;
+    width: 55%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 0.6rem 0;
+    gap: 2rem;
+}
+
+.homeDetail__body p {
+    font-size: 2.1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .3), 0 1px 3px 1px rgba(60, 64, 67, .15);
+    background-color: rgba(244, 247, 247, 0.913);
+    min-height: 8rem;
+}
+
+.homeDetail__body p:first-child span {
+    grid-column: 1/2;
+    font-size: 1.7rem;
+}
+
+.homeDetail__body span {
+    font-weight: 600;
+    display: block;
+    margin: 1.3rem 0;
+    font-size: 1.4rem;
+    padding-left: 1rem;
+}
+
+/*viewport*/
+.homeDetail__block {
+    display: block;
+    width: 100%;
+}
+
+/*viewport*/
+.homeDetail__block p {
+    margin: 1rem 0;
+    padding-left: 0.4rem;
+    font-size: 1.3rem;
+}

@@ -1,0 +1,83 @@
+.Authform {
+    width: 50%;
+    line-height: 2.4rem;
+    background-color: white;
+    border-radius: 0.4rem;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .3), 0 1px 3px 1px rgba(60, 64, 67, .15);
+    padding: 1rem;
+    margin: 2rem auto;
+    padding-left: 0.4rem;
+}
+
+.Authform>* {
+    display: block;
+}
+
+.Authform h1 {
+    text-align: end;
+    padding-right: 1rem;
+    margin: 0.3rem 0;
+}
+
+.Authform label {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+
+.Authform input {
+    width: 83%;
+    padding: 0.1rem;
+    outline: none;
+    border: 1px solid black;
+}
+
+.Authform input:focus {
+    border: 2px solid black;
+}
+
+.Authform .actions {
+    display: flex;
+    margin: 0.4rem 0;
+    justify-content: space-between;
+}
+
+.Authform .actions button {
+    padding: 1.9px 2.5rem;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.4rem;
+    margin-top: 0.8rem;
+    border-radius: 0.3rem;
+    background-color: black;
+    cursor: pointer;
+}
+
+.Authform .actions button:hover {
+    background-color: rgb(55, 54, 54);
+
+}
+
+.Authform .actions .linked {
+    text-decoration: underline;
+}
+
+/*device*/
+.AuthFormDevice {
+    width: 90%;
+}
+
+.AuthFormDevice .actions {
+    display: block;
+}
+
+.AuthFormDevice .actions button {
+    padding: 1px 1rem;
+    font-size: 0.9rem;
+}
+
+.AuthFormDevice .actions .linked {
+    font-size: 0.9rem;
+    text-align: center;
+}
